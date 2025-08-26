@@ -1,6 +1,12 @@
-public class B extends A{
-    public void display()
+import java.util.*;
+
+public class B {
+    public static void main(String[] args)
     {
-        System.out.println("We are in class B");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter a number");
+        int a = sc.nextInt();
+
+        System.out.println(a);
     }
-};
+}
