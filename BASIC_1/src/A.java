@@ -1,9 +1,10 @@
-import java.util.*;
 public class A
 {
-    public static void main(String[] args)
-    {
-        System.out.println("Hello world");
-
+    public void sum(int x,int y) {
+        int sum = x + y;
+        System.out.println("sum is " + sum);
     }
-}
+    public void display(){
+        System.out.println("We are in A");
+    }
+};
