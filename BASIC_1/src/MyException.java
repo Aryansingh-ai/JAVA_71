@@ -12,6 +12,5 @@ public class MyException {
             catch(InvalidAgeException e){
                 System.out.println(e.getMessage());
             }
-            
     }
 }
